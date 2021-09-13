@@ -1,12 +1,11 @@
-import Logo from './Logo SOFT TEAM.png';
 import './App.css';
-import index1 from './';
+import Index from './Pagina_principal/Index';
 
-function App() {
+function App () {
   return (
-    <div className="App">
-      <index1 />
-    </div>
+      <div className="App">
+        <Index />
+      </div>
   );
 }
 

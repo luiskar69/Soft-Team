@@ -1,7 +1,7 @@
 import Logo from './Logo SOFT TEAM.png';
 import './inicio.css';
 
-const index1 = () => {
+const index = () => {
         return (
             <div className="body">
     <div className="App">
@@ -33,4 +33,4 @@ const index1 = () => {
   );
 }
 
-export default index1;
+export default index;
