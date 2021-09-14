@@ -6,25 +6,33 @@ const index = () => {
             <div className="body">
     <div className="App">
       <header className="App-header">
-        <div className="content">
-          <center>
-          <img src={Logo} className="App-Logo-SOFT-TEAM" alt="Logo-SOFT-TEAM" />
-          </center>
-          </div>
+        
         <p>
 
         </p>
-        <div className="boton-mayor">
-        <button className="boton">INGRESAR</button>
-        </div>
+        
       </header>
     
-    <div className="footer">
+    
+      </div>
+      
+      <Image
+  style={{ height: 100, width: 300, resizeMode: 'contain' }}
+  source={{ URL : 'Pagina_principal/Logo-SOFT-TEAM' }}
+  resizeMode="contain"
+  resizeMethod="resize"
+/>
+      
+          <div className="boton-mayor">
+        <button className="boton">INGRESAR</button>
+        </div>
+
+        <div className="footer">
       <footer>
           <h5 align="RIGHT">© SOFT TEAM | 2021</h5>
       </footer>
+      
     </div>
-      </div>
     </div>
   );
 }
