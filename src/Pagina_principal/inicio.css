@@ -21,10 +21,10 @@
 
 .boton {
   margin: 70px;
-  background-color: transparent;
+  background-color: white;
   color: black;
   padding: 10px 50px;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .boton-mayor {
