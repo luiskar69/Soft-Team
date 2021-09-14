@@ -1,6 +1,44 @@
-.body{
-    margin-left: 0px;
-    margin-right: 10px;
+.Logo-SOFT-TEAM {
+  text-align: center;
+}
+
+.body {
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-image: url("./Logo-inicio.png");
+    background-size: 1400px;
   }
+
+.footer {
+  position:static;
+  bottom: 0;
+  width: 95%;
+  height: 140px;
+  text-align: left;
+  }
+
+.boton {
+  margin: 70px;
+  background-color: black;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 20px;
+}
+
+.boton-mayor {
+  text-align: center;
+}
+
+.content {
+	width:600px;
+	height:310px;
+	line-height:510px;
+	margin:0px auto;
+	text-align:center;
+}
+ 
+.content img {
+	vertical-align:middle;
+}
