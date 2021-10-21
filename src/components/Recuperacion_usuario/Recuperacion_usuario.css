@@ -1,0 +1,32 @@
+.BoddyRecuperar {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    outline: 1px solid black;
+}
+
+.ingrese_identificacion {
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+.Texto {
+    margin-top: 10%;
+    margin-left: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.regresarRecuperacion {
+    margin-bottom: 2%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.textoRecuperacion{
+    text-align: center;
+}
+
+.hipervinculOlvido2 {
+    margin-left: 50%;
+}
