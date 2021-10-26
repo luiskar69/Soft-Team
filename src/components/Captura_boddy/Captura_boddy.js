@@ -1,10 +1,12 @@
 import React from 'react'
 import { Col, Container, Row, Table } from 'react-bootstrap'
+import { useHistory } from 'react-router';
 import './Captura_boddy.css'
 import Form from 'react-bootstrap/Form'
 
 const Captura_boddy = () => {
 
+  let History = useHistory(); 
     
     let datadata = [
         {
@@ -31,18 +33,17 @@ const Captura_boddy = () => {
       ]
 
     return (
-            <Container className="Boddy_captura">
                 <Row>
-                    <Col sm={4}>
+                    <Col lg="3">
                         <button className="btn_captura" onClick={() =>History.push('/Captura_info')}>Capturar info.</button>
-                        <button className="btn_inv" onClick={() =>History.push('/Ingresar')}>Inventario</button>
+                        <button className="btn_inv" onClick={() =>History.push('/Inventario')}>Inventario</button>
                     </Col>
-                    <Col sm={8}>
+                    <Col lg="9">
                         <Container className="contenedor">
                             <Row>
                                 <Col>
                                 <br></br>
-                                <Table striped bordered hover size="sm">
+                                <Table className="tab" striped bordered hover size="sm">
                                 <thead>
                                     <tr>Tipo maquinaria:</tr>
                                     <tr>Número interno:</tr>
@@ -84,15 +85,14 @@ const Captura_boddy = () => {
                                       <Form.Label>Example textarea</Form.Label>
                                       <Form.Control as="textarea" rows={3} />
                                       </Form.Group>
-                                    <button className="btn_solicitud" onClick={() =>History.push('/Ingresar')}>Solicitar aprobación ingreso</button>
-                                    <button className="btn_genCorreo" onClick={() =>History.push('/Ingresar')}>Generar correo</button>
+                                    <button className="btn_solicitud">Solicitar aprobación ingreso</button>
+                                    <button className="btn_genCorreo">Generar correo</button>
                                 </>
                                 </Col>
                             </Row>
                         </Container>
                     </Col>
                 </Row>
-            </Container>
     )
 }
 

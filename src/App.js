@@ -13,13 +13,14 @@ import Olvide_usuario from './components/Olvide_mi_usuario/Olvide_usuario'
 import Recuperacion_contraseña from './components/Recuperacion_contraseña/Recuperacion_contraseña'
 import Recuperacion_usuario from './components/Recuperacion_usuario/Recuperacion_usuario'
 import Captura_info from './components/Captura_info/Captura_info'
+import Inventario from './components/Inventario/Inventario'
 
 function App () {
   return (
     <Router>
     <Switch>
-    <Route path="/Pagina_principal">
-    <Principal />
+    <Route path="/Inventario">
+    <Inventario />
     </Route>
     <Route path="/Ingresar">
     <Pagina_login />
@@ -38,6 +39,12 @@ function App () {
     </Route>
     <Route path="/Captura_info">
     <Captura_info />
+    </Route>
+    <Route path="/Pagina_login">
+    <Pagina_login />
+    </Route>
+    <Route path="/">
+    <Principal />
     </Route>
   </Switch>
 </Router>

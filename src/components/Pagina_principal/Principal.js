@@ -1,25 +1,27 @@
 import Logo from './Logo-SOFT-TEAM.png';
 import './inicio.css';
 import { useHistory } from 'react-router';
-import Footer from '../Footer/Footer'
 
 const Index = () => {
 
   let History = useHistory();
 
         return (
-
-    <div className="body">
+<div className="body">
+    <div >
     
       <center>
       <img className="Logo" src= {Logo}
       />
-      <button className="boton" onClick={() =>History.push('/Ingresar')}>INGRESAR</button>
+      <button className="boton" onClick={() =>History.push('/Pagina_login')}>INGRESAR</button>
       </center>
           
-      <Footer />
-
+      <footer className="footer">
+          <h5 align="RIGHT">© SOFT TEAM | 2021</h5>
+      </footer>
+      
     </div>
+</div>
   );
 }
 

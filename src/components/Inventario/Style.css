@@ -1,0 +1,35 @@
+
+.col1{
+    padding: 0px 50px;
+}
+.col1 h5{
+    font-weight: 800;
+    color:rgb(80, 202, 9) ;
+}
+.col1 h1{
+    color: white;
+    font-weight: 800;
+}
+.bod p{
+    color: black;
+}
+.alinear{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-mec{
+    margin: 50px 0px 0px 0px;
+}
+
+.text-mec h1{
+    font-size: 30px;
+    text-decoration: underline;
+    
+}
+.text-mec{
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+}

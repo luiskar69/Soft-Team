@@ -1,0 +1,17 @@
+  .inv {
+    justify-content: center;
+    display: flex;
+    border-color: black;
+    border-style:ridge;
+    margin: 1px;
+    border-width: 1px;
+  }
+.primer h3{
+  justify-content: center;
+  display: flex;
+}
+.conte {
+  outline: 1px solid black;
+  border-radius: 15px;
+  margin-top: 20px;
+}
