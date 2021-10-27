@@ -1,0 +1,78 @@
+.btn_captura {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  background-color: white;
+  color: black;
+  padding: 10px 50px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+      
+.btn_captura:hover {
+  background-color: gray;
+}
+
+.btn_inv {
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  background-color: white;
+  color: black;
+  padding: 10px 67px;
+  border-radius: 15px;
+}
+  
+.btn_inv:hover {
+  background-color: gray;
+}
+
+.contenedor {
+  margin-top: 20px;
+  outline: 1px solid black;
+  border-radius: 15px;
+  padding-bottom: 2%;
+  margin-left: -20px;
+}
+
+.Boddy_captura {
+  margin-top: 2%;
+  margin-left: 0%;
+}
+
+.btn_solicitud {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  background-color: white;
+  color: black;
+  padding: 10px 65px;
+  border-radius: 15px;
+}
+
+.btn_genCorreo {
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  background-color: rgb(175, 175, 175);
+  color: black;
+  padding: 10px 110px;
+  border-radius: 15px;
+}
+
+.Formulario_ob {
+  height: 20%;
+  text-align:start;
+  padding: 0%;
+  margin: 0%;
+}
+
+.menu-desplegable {
+  padding: 0%;
+}
+
+.tab {
+  margin-right: 20px;
+}

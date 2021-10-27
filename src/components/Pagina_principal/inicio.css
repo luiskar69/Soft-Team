@@ -1,0 +1,47 @@
+.Logo {
+  margin-top: 140px;
+  margin-right: 20px;
+  padding: 10px 50px;
+}
+
+.body {
+    margin: auto;
+    background-image: url("./Logo-fondo-SOFT-TEAM.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 969px;
+  }
+
+.footer .h5{
+  position:static;
+  padding: 2%;
+  width: 50%;
+  height: 100px;
+  text-align: left;
+  }
+
+.boton {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  background-color: white;
+  color: black;
+  padding: 10px 50px;
+  border-radius: 15px;
+}
+
+.boton:hover {
+  background-color: rgb(194, 189, 189);
+}
+
+.content {
+	width:auto;
+	height:450px;
+	line-height:510px;
+	margin:auto;
+}
+ 
+.content img {
+  display: flex;
+  justify-content: center;
+}

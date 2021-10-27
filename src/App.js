@@ -1,24 +1,53 @@
-import logo from './logo.svg';
 import './App.css';
+import Principal from './components/Pagina_principal/Principal';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Pagina_login from './components/Pagina_login/Login';
+import Olvide_contraseña from './components/Olvide_mi_contraseña/Olvide_contraseña'
+import Olvide_usuario from './components/Olvide_mi_usuario/Olvide_usuario'
+import Recuperacion_contraseña from './components/Recuperacion_contraseña/Recuperacion_contraseña'
+import Recuperacion_usuario from './components/Recuperacion_usuario/Recuperacion_usuario'
+import Captura_info from './components/Captura_info/Captura_info'
+import Inventario from './components/Inventario/Inventario'
 
-function App() {
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+    <Switch>
+    <Route path="/Inventario">
+    <Inventario />
+    </Route>
+    <Route path="/Ingresar">
+    <Pagina_login />
+    </Route>
+    <Route path="/Olvide_mi_contraseña">
+    <Olvide_contraseña />
+    </Route>
+    <Route path="/Olvide_mi_usuario">
+    <Olvide_usuario />
+    </Route>
+    <Route path="/Recuperacion_contraseña">
+    <Recuperacion_contraseña />
+    </Route>
+    <Route path="/Recuperacion_usuario">
+    <Recuperacion_usuario />
+    </Route>
+    <Route path="/Captura_info">
+    <Captura_info />
+    </Route>
+    <Route path="/Pagina_login">
+    <Pagina_login />
+    </Route>
+    <Route path="/">
+    <Principal />
+    </Route>
+  </Switch>
+</Router>
   );
 }
 
