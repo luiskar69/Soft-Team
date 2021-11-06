@@ -1,32 +1,27 @@
 .BoddyRecuperar {
-    margin-top: 10%;
-    margin-left: 15%;
+    margin-top: 12%;
+    margin-left: 20%;
     margin-right: 15%;
+    width: 60%;
     outline: 1px solid black;
 }
 
-.ingrese_identificacion {
-    margin-left: 40%;
+.seraEnviadoUsuario {
+    margin-left: 39%;
     margin-top: 5%;
 }
 
 .Texto {
     margin-top: 10%;
-    margin-left: 0%;
     margin-left: 10%;
     margin-right: 10%;
 }
 
 .regresarRecuperacion {
     margin-bottom: 2%;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 85%;
 }
 
 .textoRecuperacion{
     text-align: center;
-}
-
-.hipervinculOlvido2 {
-    margin-left: 50%;
 }

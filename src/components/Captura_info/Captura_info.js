@@ -1,7 +1,7 @@
 import React from 'react'
 import Captura_boddy from '../Captura_boddy/Captura_boddy'
 import Footer from '../Footer/Footer'
-import Navbar from '../Inventario/Navbar'
+import Navbar from '../Navbar/Navbar'
 
 const Captura_info = () => {
       

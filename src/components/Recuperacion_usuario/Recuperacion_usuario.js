@@ -10,9 +10,10 @@ const Recuperacion_contraseña = () => {
         <div className="BoddyRecuperar">
             
             <div className="Texto">
+                <br></br>
                 <h4>Recuperar mi usuario</h4>
             </div>
-            <Form.Label className="ingrese_identificacion">Su usuario sera enviado a:</Form.Label>
+            <Form.Label className="seraEnviadoUsuario">Su usuario sera enviado a:</Form.Label>
             <div className="textoRecuperacion">
             <p>*******ario@gmail.com</p>
             </div>

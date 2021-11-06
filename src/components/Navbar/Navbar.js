@@ -4,16 +4,17 @@ import Logo from './taller.png'
 import './Style.css'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
-import Mec from './8_122645.png'
+import Config from './MR.jpg'
+import Dropdown from 'react-bootstrap/Dropdown'
+import Image from 'react-bootstrap/Image'
+import ButtonGroup from 'react-bootstrap/ButtonGroup'
 
 
 const Inventario = () => {
   return (
     <Navbar bg="dark" variant="dark" className='col1'>
       <Row className="alinear">
-        <Col lg="7">
-          <Row >
-            <Col lg="2">
+            <Col lg="1">
               <img
                 alt=""
                 src={Logo}
@@ -22,22 +23,17 @@ const Inventario = () => {
                 className="d-inline-block align-top"
               />{''}
             </Col>
-            <Col lg="6" >
+            <Col lg="5">
               <h1>Taller Agrícola</h1>
               <h5>El mejor en su clase</h5>
             </Col>
-          <Col lg="4" className="text-mec">
+          <Col lg="6" className="text-mec">
           <h1>Mecánico Recepcionista</h1>
-          <img
-                alt=""
-                src={Mec}
-                width="80"
-                height="80"
-                className="w-10 d-inline-block align-top"
-              />{''}
-        </Col>
-          </Row>
-        </Col>
+           < Image src={Config} roundedCircle
+              width="90"
+              height="90"
+           />
+          </Col>
       </Row>
     </Navbar>
   )

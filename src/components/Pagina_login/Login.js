@@ -39,11 +39,11 @@ const Login = () => {
     <Form.Control type="password" placeholder="Ingrese su contraseña" />
   </Form.Group>
   <div className="botones">
-  <Button className="boton1" variant="outline-secondary" type="submit" onClick={() =>History.push('/Captura_info')}>
-    Ingresar
-  </Button>
   <Button className="boton2" variant="outline-secondary" onClick={() =>History.push('/Pagina_principal')}>
     Regresar
+  </Button>
+  <Button className="boton1" variant="outline-secondary" type="submit" onClick={() =>History.push('/Captura_info')}>
+    Ingresar
   </Button>
   </div>
   <div className="hipervinculos">
@@ -62,10 +62,9 @@ const Login = () => {
           </Col>
         </Row>
         </Container>
-
-      <Footer />
       
         </div>
+        <Footer />
         </div>
     )
 }

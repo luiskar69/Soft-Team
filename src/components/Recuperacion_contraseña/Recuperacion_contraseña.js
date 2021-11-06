@@ -10,14 +10,15 @@ const Olvide_contraseña = () => {
         <div className="BoddyRecuperar">
             
             <div className="Texto">
+                <br></br>
                 <h4>Recuperar mi contraseña</h4>
             </div>
-            <Form.Label className="ingrese_usuario">Su contraseña sera enviada a:</Form.Label>
+            <Form.Label className="seraEnviadaContraseña">Su contraseña sera enviada a:</Form.Label>
             <div className="textoRecuperacion">
             <p>*******ario@gmail.com</p>
             </div>
             
-            <p className="hipervinculOlvido2">
+            <p className="regresarRecuperacion">
             <a href="/Ingresar">Regresar</a>
             </p>
             <br></br>

@@ -5,9 +5,10 @@
 }
 
 .Boddy {
-    margin-top: 7%;
-    margin-left: 5%;
+    margin-top: 5%;
+    margin-left: 15%;
     margin-right: 5%;
+    width: 70%;
     outline: 1px solid black;
 }
 
@@ -38,12 +39,12 @@
 
 .boton1 {
     margin-bottom: 2%;
-    margin-left: 58%;
+    margin-left: 6%;
     margin-right: 0%;
 }
 
 .boton2 {
     margin-bottom: 2%;
-    margin-left: 6%;
+    margin-left: 50%;
     margin-right: 0%;
 }

@@ -13,6 +13,7 @@ const Olvide_contraseña = () => {
         <div className="BoddyRecuperar">
             
             <div className="Texto">
+                <br></br>
                 <h4>Recuperar mi contraseña</h4>
             </div>
             <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -24,6 +25,7 @@ const Olvide_contraseña = () => {
 
             <Container>
                 <Row>
+                    <br></br>
                     <Col>
             <p className="hipervinculOlvido1">
             <a href="/Recuperacion_contraseña">Recuperar contraseña</a>

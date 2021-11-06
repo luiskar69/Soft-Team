@@ -1,10 +1,12 @@
 
 .col1{
-    padding: 0px 50px;
+    justify-content: space-around;
 }
 .col1 h5{
+    margin-left: 100px;
     font-weight: 800;
     color:rgb(80, 202, 9) ;
+    margin-top: -11px;
 }
 .col1 h1{
     color: white;
@@ -16,20 +18,18 @@
 .alinear{
     width: 100%;
     display: flex;
-    justify-content: space-between;
-}
-
-.text-mec{
-    margin: 50px 0px 0px 0px;
 }
 
 .text-mec h1{
-    font-size: 30px;
     text-decoration: underline;
-    
+    margin-right: -60px;
+    margin-top: 43px;
 }
 .text-mec{
+    justify-content: space-evenly;
     display: flex;
-    justify-content: end;
-    margin-top: 30px;
+}
+
+.text-mec img{
+    margin-right: -70px;
 }
