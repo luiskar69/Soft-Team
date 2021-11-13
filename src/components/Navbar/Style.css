@@ -2,15 +2,15 @@
 .col1{
     justify-content: space-around;
 }
+.col1 h1{
+    color: white;
+    font-weight: 800;
+}
 .col1 h5{
     margin-left: 100px;
     font-weight: 800;
     color:rgb(80, 202, 9) ;
     margin-top: -11px;
-}
-.col1 h1{
-    color: white;
-    font-weight: 800;
 }
 .bod p{
     color: black;

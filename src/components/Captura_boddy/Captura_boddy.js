@@ -38,7 +38,7 @@ const Captura_boddy = () => {
                         <button className="btn_captura" onClick={() =>History.push('/Captura_info')}>Capturar info.</button>
                         <button className="btn_inv" onClick={() =>History.push('/Inventario')}>Inventario</button>
                     </Col>
-                    <Col lg="9">
+                    <Col lg="8">
                         <Container className="contenedor">
                             <Row>
                                 <Col>
@@ -80,9 +80,8 @@ const Captura_boddy = () => {
                                 <Col>
                                 <>
                                 <br></br>
-                                    <p>Observaciones:</p>
                                     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                                      <Form.Label>Example textarea</Form.Label>
+                                      <Form.Label>Observaciones:</Form.Label>
                                       <Form.Control as="textarea" rows={3} />
                                       </Form.Group>
                                     <button className="btn_solicitud">Solicitar aprobación ingreso</button>

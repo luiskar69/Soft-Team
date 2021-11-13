@@ -14,40 +14,44 @@ import Recuperacion_contraseña from './components/Recuperacion_contraseña/Recu
 import Recuperacion_usuario from './components/Recuperacion_usuario/Recuperacion_usuario'
 import Captura_info from './components/Captura_info/Captura_info'
 import Inventario from './components/Inventario/Inventario'
+import Supervisor from './components/Supervisor/Supervisor';
 
 function App () {
   return (
-    <Router>
+  <Router>
     <Switch>
-    <Route path="/Inventario">
-    <Inventario />
-    </Route>
-    <Route path="/Ingresar">
-    <Pagina_login />
-    </Route>
-    <Route path="/Olvide_mi_contraseña">
-    <Olvide_contraseña />
-    </Route>
-    <Route path="/Olvide_mi_usuario">
-    <Olvide_usuario />
-    </Route>
-    <Route path="/Recuperacion_contraseña">
-    <Recuperacion_contraseña />
-    </Route>
-    <Route path="/Recuperacion_usuario">
-    <Recuperacion_usuario />
-    </Route>
-    <Route path="/Captura_info">
-    <Captura_info />
-    </Route>
-    <Route path="/Pagina_login">
-    <Pagina_login />
-    </Route>
-    <Route path="/">
-    <Principal />
-    </Route>
-  </Switch>
-</Router>
+      <Route path="/Inventario">
+        <Inventario />
+      </Route>
+      <Route path="/Ingresar">
+        <Pagina_login />
+      </Route>
+      <Route path="/Olvide_mi_contraseña">
+        <Olvide_contraseña />
+      </Route>
+      <Route path="/Olvide_mi_usuario">
+        <Olvide_usuario />
+      </Route>
+      <Route path="/Recuperacion_contraseña">
+        <Recuperacion_contraseña />
+      </Route>
+      <Route path="/Recuperacion_usuario">
+        <Recuperacion_usuario />
+      </Route>
+      <Route path="/Captura_info">
+        <Captura_info />
+      </Route>
+      <Route path="/Pagina_login">
+        <Pagina_login />
+      </Route>
+      <Route path="/Supervisor">
+        <Supervisor />
+      </Route>
+      <Route path="/">
+        <Principal />
+      </Route>
+    </Switch>
+  </Router>
   );
 }
 

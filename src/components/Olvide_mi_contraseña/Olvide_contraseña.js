@@ -10,7 +10,7 @@ const Olvide_contraseña = () => {
 
     return (
         <div>
-        <div className="BoddyRecuperar">
+        <div className="BoddyRecuperarContraseña">
             
             <div className="Texto">
                 <br></br>

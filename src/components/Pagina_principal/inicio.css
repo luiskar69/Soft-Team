@@ -9,11 +9,11 @@
     background-image: url("./Logo-fondo-SOFT-TEAM.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 969px;
+    height: 667px;
   }
 
 .footer .h5{
-  position:static;
+  position:absolute;
   padding: 2%;
   width: 50%;
   height: 100px;
