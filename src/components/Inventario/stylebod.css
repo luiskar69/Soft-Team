@@ -1,10 +1,7 @@
   .inv {
     justify-content: center;
     display: flex;
-    border-color: black;
-    border-style:ridge;
     margin: 1px;
-    border-width: 1px;
   }
 .primer h3{
   justify-content: center;

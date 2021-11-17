@@ -5,7 +5,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Pagina_login from './components/Pagina_login/Login';
 import Olvide_contraseña from './components/Olvide_mi_contraseña/Olvide_contraseña'

@@ -7,7 +7,6 @@ import Form from 'react-bootstrap/Form'
 import Table from 'react-bootstrap/Table'
 import FloatingLabel from 'react-bootstrap/FloatingLabel'
 import { useHistory } from 'react-router';
-import Footer from '../Footer/Footer'
 
 
 const Bod = () => {
@@ -15,7 +14,6 @@ const Bod = () => {
   let History = useHistory();
 
     return (
-      <Container>
   <Row>
     <Col xs lg="3">
     <button className="btn_captura" onClick={() =>History.push('/Captura_info')}>Capturar info.</button>
@@ -35,6 +33,7 @@ const Bod = () => {
       <th colSpan="1">Revisión de elementos</th>
       <th colSpan="2">Dar click sobre el item</th>
       <th colSpan="2">Elementos Personales</th>
+      <th colSpan="2">Observaciones</th>
     </tr>
   </thead>
   <tbody>
@@ -50,6 +49,8 @@ const Bod = () => {
               <option value="3">3</option>
               <option value="4">4</option>
             </Form.Select></td>
+            <td colSpan="2" rowSpan="14">
+    <Form.Control as="textarea" rows={36} /></td>
     </tr>
     <tr>
       <td>Lámpara y vidrios</td>
@@ -64,9 +65,8 @@ const Bod = () => {
       <td>Tapa tanque de combus.</td>
       <td>Si <Form.Check aria-label="option 1"/></td>
       <td>No <Form.Check aria-label="option 1"/></td>
-      <td colSpan="2" rowSpan="8"> <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-    <Form.Control as="textarea" rows={17} />
-  </Form.Group></td>
+      <td colSpan="2" rowSpan="8">
+    <Form.Control as="textarea" rows={19} /></td>
     </tr>
     <tr>
       <td>Tapa tanque hidráulico</td>
@@ -138,15 +138,6 @@ const Bod = () => {
       
     </tr>
     <tr>
-      <td colSpan="6"> <FloatingLabel controlId="floatingTextarea2" label="Observación:">
-    <Form.Control
-      as="textarea"
-      placeholder="Leave a comment here"
-      style={{ height: '100px' }}
-    />
-  </FloatingLabel></td>
-    </tr>
-    <tr>
       <td colSpan="6"> <FloatingLabel controlId="floatingTextarea2" label="Golpes o Rayones:">
     <Form.Control
       as="textarea"
@@ -165,7 +156,7 @@ const Bod = () => {
 
       </Col>
       <Col xs lg="4">
-        <p>Código Material:</p>
+      <Form.Control type="text" placeholder="Código Material" />
       </Col>
       </Row>
       </td>
@@ -176,7 +167,6 @@ const Bod = () => {
     </Col>
 
   </Row>
-  </Container>
 
     )
 }
