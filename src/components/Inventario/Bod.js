@@ -33,112 +33,121 @@ const Bod = () => {
       <th colSpan="1">Revisión de elementos</th>
       <th colSpan="2">Dar click sobre el item</th>
       <th colSpan="2">Elementos Personales</th>
-      <th colSpan="2">Observaciones</th>
+      <th colSpan="2">Novedades o Fallas presentes en la máquina</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Retrovisor Int. y Ext.</td>
-      <td>Si <Form.Check aria-label="option 1"/></td>
-      <td>No <Form.Check aria-label="option 1"/></td>
-      <td colSpan="2">Cuantas llaves
-            <Form.Select aria-label="Default select example">
+      <td> <Form.Check label="Sí" aria-label="option 1"/></td>
+      <td> <Form.Check label="No" aria-label="option 1"/></td>
+      <td colSpan="2">
+        <Row>
+          <Col xs lg="5">
+          ¿Cuántas llaves?
+          </Col>
+          <Col xs lg="7">
+            <Form.Select size="sm" aria-label="Default select example" className="uss">
               <option></option>
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
               <option value="4">4</option>
-            </Form.Select></td>
+            </Form.Select>
+          </Col>
+        </Row>
+        </td>
             <td colSpan="2" rowSpan="14">
-    <Form.Control as="textarea" rows={36} /></td>
-    </tr>
-    <tr>
-      <td>Lámpara y vidrios</td>
-      <td>Buenos <Form.Check aria-label="option 1"/></td>
-      <td>Malos <Form.Check aria-label="option 1"/></td>
-      <td colSpan="1">Con llavero 
-      Sí <Form.Check aria-label="option 1"/> </td>
-      <td>No <Form.Check aria-label="option 1"/> </td>
-     
-    </tr>
-    <tr>
-      <td>Tapa tanque de combus.</td>
-      <td>Si <Form.Check aria-label="option 1"/></td>
-      <td>No <Form.Check aria-label="option 1"/></td>
-      <td colSpan="2" rowSpan="8">
     <Form.Control as="textarea" rows={19} /></td>
     </tr>
     <tr>
-      <td>Tapa tanque hidráulico</td>
-      <td>Si <Form.Check aria-label="option 1"/></td>
-      <td>No <Form.Check aria-label="option 1"/></td>
-    </tr>
-    <tr>
-      <td>Tapa radiador</td>
-      <td>Si <Form.Check aria-label="option 1"/></td>
-      <td>No <Form.Check aria-label="option 1"/></td>
+      <td height="35px">Lámpara y vidrios</td>
+      <td><Form.Check label="Buenos" aria-label="option 1" /></td>
+      <td><Form.Check label="Malos" aria-label="option 1"/></td>
+      <td colSpan="1" > <Row> <Col xs lg="5">¿Con llavero?</Col> <Col xs lg="2"> <Form.Check label="Sí" aria-label="option 1"/> </Col> <Col xs lg="1"> <Form.Check label="No" aria-label="option 1"/> </Col> </Row></td>
      
     </tr>
     <tr>
-      <td>Extintor</td>
-      <td>Si <Form.Check aria-label="option 1"/></td>
-      <td>No <Form.Check aria-label="option 1"/></td>
+      <td height="35px">Tapa tanque de combus.</td>
+      <td><Form.Check label="Sí" aria-label="option 1"/></td>
+      <td><Form.Check label="No" aria-label="option 1"/></td>
+      <td colSpan="2" rowSpan="8">
+    <Form.Control as="textarea"
+      placeholder="Otros elementos a reportar"
+       rows={10} /></td>
+    </tr>
+    <tr>
+      <td height="35px">Tapa tanque hidráulico</td>
+      <td><Form.Check label="Sí" aria-label="option 1"/></td>
+      <td><Form.Check label="No" aria-label="option 1"/></td>
+    </tr>
+    <tr>
+      <td height="35px">Tapa radiador</td>
+      <td><Form.Check label="Sí" aria-label="option 1"/></td>
+      <td><Form.Check label="No" aria-label="option 1"/></td>
      
     </tr>
     <tr>
-      <td>Llanta de repuesto</td>
-      <td>Si <Form.Check aria-label="option 1"/></td>
-      <td>No <Form.Check aria-label="option 1"/></td>
+      <td height="35px">Extintor</td>
+      <td><Form.Check label="Sí" aria-label="option 1"/></td>
+      <td><Form.Check label="No" aria-label="option 1"/></td>
      
     </tr>
     <tr>
-      <td>Radio musical</td>
-      <td>Si <Form.Check aria-label="option 1"/></td>
-      <td>No <Form.Check aria-label="option 1"/></td>
+      <td height="35px">Llanta de repuesto</td>
+      <td><Form.Check label="Sí" aria-label="option 1"/></td>
+      <td><Form.Check label="No" aria-label="option 1"/></td>
      
     </tr>
     <tr>
-      <td>Radio telefono</td>
-      <td>Si <Form.Check aria-label="option 1"/></td>
-      <td>No <Form.Check aria-label="option 1"/></td>
+      <td height="35px">Radio musical</td>
+      <td><Form.Check label="Sí" aria-label="option 1"/></td>
+      <td><Form.Check label="No" aria-label="option 1"/></td>
+     
+    </tr>
+    <tr>
+      <td height="35px">Radio telefono</td>
+      <td><Form.Check label="Sí" aria-label="option 1"/></td>
+      <td><Form.Check label="No" aria-label="option 1"/></td>
 
     </tr>
     <tr>
-      <td>Gato y Palancas con llave</td>
-      <td>Si <Form.Check aria-label="option 1"/></td>
-      <td>No <Form.Check aria-label="option 1"/></td>
+      <td height="35px">Gato y Palancas con llave</td>
+      <td><Form.Check label="Sí" aria-label="option 1"/></td>
+      <td><Form.Check label="No" aria-label="option 1"/></td>
       
     </tr>
     <tr>
-      <td>Parlantes</td>
-      <td>Si <Form.Check aria-label="option 1"/></td>
-      <td>No <Form.Check aria-label="option 1"/></td>
-      <td colSpan="2">Cuántos<Form.Control size="sm" type="text" placeholder=""/></td>
+      <td height="35px">Parlantes</td>
+      <td><Form.Check label="Sí" aria-label="option 1"/></td>
+      <td><Form.Check label="No" aria-label="option 1"/></td>
+      <td colSpan="2"> <Row> <Col xs lg="2"> Cuántos </Col> <Col xs lg="10"><Form.Control size="sm" type="text" className="uss" placeholder=""/> </Col> </Row></td>
       
     </tr>
     <tr>
-      <td>Estado de vidrios</td>
-      <td>Buenos <Form.Check aria-label="option 1"/></td>
-      <td>Malos <Form.Check aria-label="option 1"/></td>
-      <td colSpan="2">Cuántos<Form.Control size="sm" type="text" placeholder=""/></td>
+      <td height="35px">Estado de vidrios</td>
+      <td><Form.Check label="Buenos" aria-label="option 1"/></td>
+      <td><Form.Check label="Malos" aria-label="option 1"/></td>
+      <td colSpan="2"><Row> <Col xs lg="2"> Cuántos </Col> <Col xs lg="10"><Form.Control size="sm" type="text" className="uss" placeholder=""/> </Col> </Row></td>
       
     </tr>
     <tr>
-      <td>Cojineria</td>
-      <td>Buenos <Form.Check aria-label="option 1"/></td>
-      <td>Malos <Form.Check aria-label="option 1"/></td>
-      <td colSpan="2">Falta<Form.Control size="sm" type="text" placeholder=""/></td>
+      <td height="35px">Cojineria</td>
+      <td><Form.Check label="Buenos" aria-label="option 1"/></td>
+      <td><Form.Check label="Malos" aria-label="option 1"/></td>
+      <td colSpan="2"><Row> <Col xs lg="2"> Falta </Col> <Col xs lg="10"><Form.Control size="sm" type="text" className="uss" placeholder=""/> </Col> </Row></td>
      
     </tr>
     <tr>
-      <td>Estado de lámina y pint.</td>
-      <td>Buenos <Form.Check aria-label="option 1"/></td>
-      <td>Malos <Form.Check aria-label="option 1"/></td>
-      <td colSpan="2">Regular<Form.Control size="sm" type="text" placeholder=""/></td>
+      <td height="35px">Estado de lámina y pint.</td>
+      <td><Form.Check label="Buenos" aria-label="option 1"/></td>
+      <td><Form.Check label="Malos" aria-label="option 1"/></td>
+      <td colSpan="2"><Row> <Col xs lg="2"> Regular </Col> <Col xs lg="10"><Form.Control size="sm" type="text" className="uss" placeholder=""/> </Col> </Row></td>
       
     </tr>
     <tr>
-      <td colSpan="6"> <FloatingLabel controlId="floatingTextarea2" label="Golpes o Rayones:">
+      <td colSpan="6"> 
+    <FloatingLabel controlId="floatingTextarea2" label="Golpes o Rayones:">
     <Form.Control
       as="textarea"
       placeholder="Leave a comment here"
@@ -167,7 +176,8 @@ const Bod = () => {
     </Col>
 
   </Row>
-
+  
     )
+    
 }
 export default Bod

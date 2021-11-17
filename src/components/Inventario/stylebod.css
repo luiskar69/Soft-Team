@@ -9,6 +9,9 @@
 }
 .conte {
   outline: 1px solid black;
-  border-radius: 15px;
+  border-top-left-radius: 20px;
   margin-top: 20px;
+}
+.uss{
+  margin: 0px 0px -20px 0px;
 }
