@@ -7,10 +7,10 @@
 .body {
     margin: auto;
     background-image: url("./Logo-fondo-SOFT-TEAM.png");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 667px;
-  }
+    height: 100vh;
+}
 
 .footer .h5{
   position:absolute;
@@ -18,7 +18,7 @@
   width: 50%;
   height: 100px;
   text-align: left;
-  }
+}
 
 .boton {
   margin-left: auto;

@@ -21,7 +21,7 @@ const Bod = () => {
     <button className="btn_captura" onClick={() =>History.push('/Captura_info')}>Capturar info.</button>
     <button className="btn_inv">Inventario</button>
     </Col>
-    <Col xs lg="9">
+    <Col xs lg="8">
       <Container >
         
       <Table className="conte" striped bordered hover size="sm">

@@ -15,11 +15,15 @@ import Recuperacion_usuario from './components/Recuperacion_usuario/Recuperacion
 import Captura_info from './components/Captura_info/Captura_info'
 import Inventario from './components/Inventario/Inventario'
 import Supervisor from './components/Supervisor/Supervisor';
+import Ajustes from './components/Ajustes/Ajustes';
 
 function App () {
   return (
   <Router>
     <Switch>
+      <Route path="/Ajustes">
+        <Ajustes />
+      </Route>
       <Route path="/Inventario">
         <Inventario />
       </Route>
