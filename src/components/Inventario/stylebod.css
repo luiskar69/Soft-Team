@@ -1,17 +1,27 @@
   .inv {
     justify-content: center;
     display: flex;
-    margin: 1px;
   }
 .primer h3{
   justify-content: center;
   display: flex;
 }
 .conte {
-  outline: 1px solid black;
-  border-top-left-radius: 20px;
-  margin-top: 20px;
+  margin-top: 5px;
+  border-style: groove;
+  border-radius: 20px;
 }
-.uss{
-  margin: 0px 0px -20px 0px;
+.tabla{
+  margin-block-end: 0px;
 }
+.margen{
+  border-style: none;
+  border-bottom: solid ;
+  
+}
+
+.table{
+
+  --bs-table-hover-bg: rgba(0, 0, 0, 0.0) !important;
+}
+

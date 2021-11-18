@@ -20,9 +20,9 @@ const Bod = () => {
     <button className="btn_inv">Inventario</button>
     </Col>
     <Col xs lg="9">
-      <Container >
+      <Container className="conte">
         
-      <Table className="conte" striped bordered hover size="sm">
+      <Table striped bordered hover size="sm" className="tabla">
   <thead>
     <tr>
       <th colSpan="7" className='primer'><h3>INVENTARIO GENERAL - Recepcionista Taller Agricola</h3></th>
@@ -47,13 +47,7 @@ const Bod = () => {
           ¿Cuántas llaves?
           </Col>
           <Col xs lg="7">
-            <Form.Select size="sm" aria-label="Default select example" className="uss">
-              <option></option>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-            </Form.Select>
+          <Form.Control type="number" placeholder="" />
           </Col>
         </Row>
         </td>
@@ -151,22 +145,52 @@ const Bod = () => {
     <Form.Control
       as="textarea"
       placeholder="Leave a comment here"
-      style={{ height: '100px' }}
+      style={{ height: '70px' }}
     />
   </FloatingLabel></td>
     </tr>
     <tr>
       <td colSpan="6">
       <Row>
-      <Col xs lg="4">
+      <Row>
+      <Col xs lg="5">
         <p>SALIDA DE LA MÁQUINA</p>
       </Col>
-      <Col xs lg="4">
-
+      <Col >
       </Col>
-      <Col xs lg="4">
-      <Form.Control type="text" placeholder="Código Material" />
+      <Col xs lg="6">
+      <Form.Group as={Row} className="mb-3" controlId="formPlaintextPassword">
+          <Form.Label column sm="3">
+            Código material
+          </Form.Label>
+          <Col sm="9">
+            <Form.Control type="text" placeholder="" />
+          </Col>
+        </Form.Group>
       </Col>
+      </Row>
+      <td className="firmas">
+        <Row>
+        <Col xs lg="4" >
+        <Form.Control type="text" placeholder="" className="margen" />
+        <Form.Label column sm="6">
+        <p>Operador recibe máquina</p>
+        </Form.Label>
+        </Col>
+        <Col xs lg="4">
+        <Form.Control type="text" placeholder="" className="margen" />
+        <Form.Label column sm="14">
+        <p>Entrega de máquina: Recepcionista / Supervisor</p>
+        </Form.Label>
+        </Col>
+        <Col xs lg="4">
+        <Form.Control type="text" placeholder="" className="margen" />
+        <Form.Label column sm="7">
+          <p>Vigilancia taller agricola</p>
+        </Form.Label>
+        </Col>
+        </Row>
+      </td>
       </Row>
       </td>
     </tr>
