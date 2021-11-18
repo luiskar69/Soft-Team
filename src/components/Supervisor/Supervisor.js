@@ -4,6 +4,7 @@ import { useHistory } from 'react-router';
 import './Supervisor.css'
 import Form from 'react-bootstrap/Form'
 import Footer from '../Footer/Footer'
+import Navbar from '../Navbar/Navbar'
 
 const Supervisor = () => {
 
@@ -35,6 +36,7 @@ const Supervisor = () => {
 
     return (
                 <Row>
+                  <Navbar />
                     <Col lg="3">
                         <button className="btn_captura">Solicitud de ingreso.</button>
                     </Col>

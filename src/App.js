@@ -4,8 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Pagina_login from './components/Pagina_login/Login';
 import Olvide_contraseña from './components/Olvide_mi_contraseña/Olvide_contraseña'
