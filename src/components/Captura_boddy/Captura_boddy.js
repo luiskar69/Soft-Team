@@ -33,7 +33,7 @@ const Captura_boddy = () => {
       ]
 
     return (
-                <Row>
+                <Row className="rowMaster">
                     <Col lg="3">
                         <button className="btn_captura" onClick={() =>History.push('/Captura_info')}>Capturar info.</button>
                         <button className="btn_inv" onClick={() =>History.push('/Inventario')}>Inventario</button>

@@ -15,11 +15,15 @@ import Captura_info from './components/Captura_info/Captura_info'
 import Inventario from './components/Inventario/Inventario'
 import Supervisor from './components/Supervisor/Supervisor';
 import Ajustes from './components/Ajustes/Ajustes';
+import Actualizar_contraseña from './components/Actualizar_contraseña/Actualizar_contraseña';
 
 function App () {
   return (
   <Router>
     <Switch>
+      <Route path="/Actualizar_contraseña">
+        <Actualizar_contraseña />
+      </Route>
       <Route path="/Ajustes">
         <Ajustes />
       </Route>
