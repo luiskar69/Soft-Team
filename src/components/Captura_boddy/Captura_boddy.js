@@ -43,7 +43,7 @@ const Captura_boddy = () => {
                             <Row>
                                 <Col>
                                 <br></br>
-                                <Table className="tab" striped bordered hover size="sm">
+                                <Table className="tab" striped bordered hover size="sm" responsive>
                                 <thead>
                                     <tr>Tipo maquinaria:</tr>
                                     <tr>Número interno:</tr>

@@ -3,7 +3,7 @@
     justify-content: space-around;
 }
 .col1 h5{
-    margin-left: 100px;
+    text-align: end;
     font-weight: 800;
     color:rgb(58, 156, 1) ;
     margin-top: -11px;

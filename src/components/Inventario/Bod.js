@@ -22,7 +22,7 @@ const Bod = () => {
     <Col xs lg="9">
       <Container className="conte">
         
-      <Table striped bordered hover size="sm" className="tabla">
+      <Table striped bordered hover size="sm" className="tabla" responsive  >
   <thead>
     <tr>
       <th colSpan="7" className='primer'><h3>INVENTARIO GENERAL - Recepcionista Taller Agricola</h3></th>
