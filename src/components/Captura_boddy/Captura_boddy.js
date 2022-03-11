@@ -43,7 +43,7 @@ const Captura_boddy = () => {
                             <Row>
                                 <Col>
                                 <br></br>
-                                <Table className="tab" striped bordered hover size="sm">
+                                <Table className="tab" striped bordered hover size="sm" responsive>
                                 <thead>
                                     <tr>Tipo maquinaria:</tr>
                                     <tr>Número interno:</tr>
@@ -80,9 +80,9 @@ const Captura_boddy = () => {
                                 <Col>
                                 <>
                                 <br></br>
-                                    <p>Observaciones:</p>
+                                  
                                     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                                      <Form.Label>Example textarea</Form.Label>
+                                      <Form.Label>Observaciones:</Form.Label>
                                       <Form.Control as="textarea" rows={3} />
                                       </Form.Group>
                                     <button className="btn_solicitud">Solicitar aprobación ingreso</button>

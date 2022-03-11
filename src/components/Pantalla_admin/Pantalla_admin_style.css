@@ -1,0 +1,36 @@
+.btn_añadir_usuario {
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 3px;
+  }
+  .btn_editar_usuario{
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 3px;
+  }
+  .btn_añadir_usuario:hover{
+      transition: 0.7s;
+      background-color: #3A9C01;
+  }
+  .btn_editar_usuario:hover{
+    transition: 0.7s;
+    background-color: #FD7F28;
+  }
+  .search{
+      margin-top: 30px;
+      margin-bottom: 10px;
+      width: auto;
+      padding: 5px 20px;
+      border-radius: 15px;
+      margin-top: 25px;
+      margin-left: 10px;
+  }
+  .btn_search{
+      text-align: end;
+  }

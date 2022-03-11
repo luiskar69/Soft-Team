@@ -3,7 +3,7 @@
     justify-content: space-around;
 }
 .col1 h5{
-    text-align: end;
+    margin-left: 100px;
     font-weight: 800;
     color:rgb(58, 156, 1) ;
     margin-top: -11px;
@@ -21,7 +21,6 @@
 
 .text-mec{
     text-decoration: underline;
-    color: #FD7F28;
     margin-top: 20px;
 }
 .text-mec{
@@ -42,4 +41,7 @@
   }
 .log img{
     margin-left: 50px;
+}
+.drop{
+    margin-right: 30px;
 }

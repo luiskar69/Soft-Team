@@ -5,19 +5,12 @@
 }
 
 .body {
-    margin: auto;
-    background-image: url("./Logo-fondo-SOFT-TEAM.png");
-    background-size: 100%;
+    background-image: url("./Logo-fondo-SOFT-TEAM.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 969px;
-  }
-
-.footer .h5{
-  position:static;
-  padding: 2%;
-  width: 50%;
-  height: 100px;
-  text-align: left;
+    padding-top: 100px;
   }
 
 .boton {
@@ -31,17 +24,19 @@
 }
 
 .boton:hover {
+  transition: 0.7s;
   background-color: rgb(194, 189, 189);
-}
-
-.content {
-	width:auto;
-	height:450px;
-	line-height:510px;
-	margin:auto;
 }
  
 .content img {
   display: flex;
   justify-content: center;
+}
+.footer{
+    height: 600px;
+}
+.footer h5{
+  padding-top: 20px;
+  color: white;
+  text-align: center;
 }

@@ -1,19 +1,15 @@
-.logo_taller {
-    margin-top: 40px;
-    margin-right: 20px;
-    padding: 10px 50px;
+.logo_taller{
+    padding: auto;
 }
 
-.Boddy {
-    margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 5%;
-    width: 70%;
+.boddy {
+    border-radius: 20px;
     outline: 1px solid black;
 }
 
 .titulo {
     text-align: center;
+    margin-top: 5%;
     margin-bottom: 5%;
 }
 
@@ -22,29 +18,20 @@
     text-decoration-line: underline;
 }
 
+.fo{
+display: flex;
+justify-content: center;    
+}
 .footer {
-  position:absolute;
   bottom: 0;
-  width: 95%;
-  height: 100px;
-  text-align: left;
   }
-
-.columnas {
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-left: 3%;
-    margin-right: 3%;
+.gran{
+    padding: 5% 1%;
 }
-
-.boton1 {
-    margin-bottom: 2%;
-    margin-left: 6%;
-    margin-right: 0%;
+.col_login h4{
+    text-align: center;
+    font-family:'Times New Roman';
 }
-
-.boton2 {
-    margin-bottom: 2%;
-    margin-left: 50%;
-    margin-right: 0%;
+.col_login{
+    padding: 5% 0%;
 }

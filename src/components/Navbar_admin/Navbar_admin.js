@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import {
   Navbar,
   Dropdown,
@@ -9,10 +9,11 @@ import Logo from "./taller.png";
 import "./Style.css";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import Config from "./MR.jpg";
+import Config from "./Admin.jpg";
 import Image from "react-bootstrap/Image";
 
-const Inventario = () => {
+
+const Navbar_admin = () => {
   return (
     <>
       <Navbar expand="lg" className="back">
@@ -36,14 +37,14 @@ const Inventario = () => {
             </Row>
           </Navbar.Brand>
           <Form className="d-flex" >
-            <h4 className="text-mec">Mecánico Recepcionista</h4>
-            <Dropdown>
+            <h4 className="text-mec">Administrador</h4>
+            <Dropdown className="drop">
               <Dropdown.Toggle variant="link" id="dropdown-basic">
               <Image src={Config} roundedCircle width="50" height="50" />
               </Dropdown.Toggle>
 
-              <Dropdown.Menu>
-                <Dropdown.Item href="/Ajustes">Austes</Dropdown.Item>
+              <Dropdown.Menu >
+                <Dropdown.Item href="/Ajustes_admin">Ajustes</Dropdown.Item>
                 <Dropdown.Item href="/">Salir</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
@@ -51,7 +52,8 @@ const Inventario = () => {
         </Container>
       </Navbar>
     </>
-  );
-};
+  )
+}
 
-export default Inventario;
+export default Navbar_admin
+

@@ -7,11 +7,10 @@ const Index = () => {
   let History = useHistory();
 
         return (
-<div className="body">
-    <div >
+    <div className="body">
     
       <center>
-      <img className="Logo" src= {Logo}
+      <img className="Logo" class='responsive' src= {Logo}
       />
       <button className="boton" onClick={() =>History.push('/Pagina_login')}>INGRESAR</button>
       </center>
@@ -21,7 +20,6 @@ const Index = () => {
       </footer>
       
     </div>
-</div>
   );
 }
 
