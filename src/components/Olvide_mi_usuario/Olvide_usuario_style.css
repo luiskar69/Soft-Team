@@ -1,35 +1,35 @@
-.btn_cancelar_recuperar_contraseña{
+.btn_cancelar_recuperar_usuario{
     margin-top: 10px;
     margin-right: 15px;
 }
-.btn_buscar_recuperar_contraseña{
+.btn_buscar_recuperar_usuario{
     margin-top: 10px;
 }
-.btn_buscar_recuperar_contraseña:hover{
+.btn_buscar_recuperar_usuario:hover{
     background-color: #3A9C01;
     transition: 0.7s;
 }
-.btn_cancelar_recuperar_contraseña:hover{
+.btn_cancelar_recuperar_usuario:hover{
     background-color: #FD7F28;
     transition: 0.7s;
 }
-.container_olvide_contraseña{
+.container_olvide_usuario{
     border: solid 1px black;
     border-radius: 10px;
     padding: 2% 2% 4% 2%;
     margin-top: 5%;
 }
-.container_olvide_contraseña h3{
+.container_olvide_usuario h3{
     font-family: 'Times New Roman';
 }
-.ingresa_correo_recuperar_contraseña{
+.ingresa_correo_recuperar_usuario{
     border: 2px solid #3A9C01;
 }
-.ingresa_correo_recuperar_contraseña:focus{
+.ingresa_correo_recuperar_usuario:focus{
     box-shadow: none;
     border: 2px solid #FD7F28;
 }
-.ingresa_correo_recuperar_contraseña:hover{
+.ingresa_correo_recuperar_usuario:hover{
     box-shadow: none;
     border: 2px solid #FD7F28;
 }

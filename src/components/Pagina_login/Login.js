@@ -28,18 +28,18 @@ function FormExample() {
     <div className='gran'>
       <Container className="boddy">
           <Row>
-            <Col lg='5'>
+            <Col lg='5' className="logo_taller">
               <center>
-                <img className="logo_taller" src={Logo_taller}
+                <img src={Logo_taller}
                 />
               </center>
             </Col>
             <Col lg='5' className='col_login'>
-              <h4>Ingresar</h4>
+              <h4 className='titulo_login'>Ingresar</h4>
               <Form className="Formulario" noValidate validated={validated} onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="validationCustom01">
                   <Form.Label>Usuario</Form.Label>
-                  <Form.Control type="text" placeholder="Ingrese su usuario" maxLength="15" required />
+                  <Form.Control className='ingresar_usuario' type="text" placeholder="Ingrese su usuario" maxLength="15" required />
                   <Form.Control.Feedback>Datos validos</Form.Control.Feedback>
                   <Form.Control.Feedback type="invalid">
                     Por favor, ingrese un usuario válido
@@ -50,7 +50,7 @@ function FormExample() {
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                   <Form.Label>Contraseña</Form.Label>
-                  <Form.Control type="password" placeholder="Ingrese su contraseña" maxLength="8" required  />
+                  <Form.Control className='ingresar_usuario' type="password" placeholder="Ingrese su contraseña" maxLength="8" required  />
                   <Form.Control.Feedback>Datos validos</Form.Control.Feedback>
                   <Form.Control.Feedback type="invalid">
                     Por favor, ingrese una contraseña

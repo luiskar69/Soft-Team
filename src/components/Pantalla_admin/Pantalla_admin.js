@@ -15,13 +15,14 @@ const Pantalla_admin = () => {
         <Navbar_admin/>
             <Container >
                 <Row>
-                <Col lg='8'>
+                <Col lg='9'>
                     <button className="btn_añadir_usuario" onClick={() =>History.push('/Registro_usuario')}>Añadir usuario</button>
                     <button className="btn_editar_usuario" onClick={() =>History.push('/Registro_usuario')}>Editar usuario</button>
                     <button className="btn_añadir_usuario" onClick={() =>History.push('/Captura_info')}>Inhabilitar usuario</button>
                     <button className="btn_editar_usuario" onClick={() =>History.push('/Captura_info')}>Eliminar usuario</button>
+                    <button className="btn_registrar_maquina" onClick={() =>History.push('/Registro_maquina')}>Añadir máquina</button>
                 </Col>
-                <Col lg='4' className='btn_search'>
+                <Col lg='3' className='btn_search'>
                     <input className="search" placeholder="Buscar"/>
                 </Col>
                 </Row>
@@ -34,12 +35,14 @@ const Pantalla_admin = () => {
                     <thead className='cabecera'>
                         <tr>
                         <th></th>
-                        <th>Ficha usuario</th>
+                        <th>No. Ficha</th>
                         <th>Rol</th>
-                        <th>Nombres</th>
-                        <th>Apellidos</th>
-                        <th>Contraseña</th>
+                        <th>Primer nombre</th>
+                        <th>Segundo nombre</th>
+                        <th>Primer apellido</th>
+                        <th>Segundo apellido</th>
                         <th>Correo electrónico</th>
+                        <th>Contraseña</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -47,13 +50,17 @@ const Pantalla_admin = () => {
                         <td><input type='checkbox'></input></td>
                         <td>1006352079</td>
                         <td>Mecánico Recepcionista</td>
-                        <td>Jeison Steven</td>
-                        <td>García Robles</td>
-                        <td>kmnutrse543w54e657r67gub</td>
+                        <td>Jeison</td>
+                        <td>Steven</td>
+                        <td>García</td>
+                        <td>Robles</td>
                         <td>jeisonlex15@manuelitalomejor.com</td>
+                        <td>kmnutrse543w54e657r67gub</td>
                         </tr>
                         <tr>
                         <td><input type='checkbox'></input></td>
+                        <td>Mark</td>
+                        <td>Otto</td>
                         <td>Mark</td>
                         <td>Otto</td>
                         <td>@mdo</td>
@@ -63,6 +70,8 @@ const Pantalla_admin = () => {
                         </tr>
                         <tr>
                         <td><input type='checkbox'></input></td>
+                        <td>Mark</td>
+                        <td>Otto</td>
                         <td>Mark</td>
                         <td>Otto</td>
                         <td>@mdo</td>

@@ -12,6 +12,7 @@
 .btn_captura:hover {
   transition: 0.7s;
   background-color: #3A9C01;
+  color: white;
 }
 
 .btn_inv {
@@ -28,6 +29,7 @@
 .btn_inv:hover {
   transition: 0.7s;
   background-color: #FD7F28;
+  color: white;
 }
 
 .contenedor {
@@ -84,4 +86,5 @@
 .btn_solicitud:hover{
   transition: 0.7s;
   background-color: #3A9C01;
+  color: white;
 }

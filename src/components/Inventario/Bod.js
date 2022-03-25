@@ -16,8 +16,9 @@ const Bod = () => {
     return (
   <Row>
     <Col xs lg="3">
-    <button className="btn_captura" onClick={() =>History.push('/Captura_info')}>Capturar info.</button>
+    <button className="btn_captura" onClick={() =>History.push('/Mecanico_recepcionista')}>Capturar info.</button>
     <button className="btn_inv">Inventario</button>
+    <button className="btn_inv">Imprimir</button>
     </Col>
     <Col xs lg="9">
       <Container className="conte">
@@ -159,11 +160,13 @@ const Bod = () => {
       </Col>
       <Col xs lg="6" >
       <Form.Group as={Row} className="mb-3" controlId="formPlaintextPassword">
+        <Col lg="3">
           <Form.Label column>
             Código material
           </Form.Label>
-          <Col sm="8">
-            <Form.Control type="text" placeholder="Digite el código del material" />
+        </Col>
+          <Col   lg="9">
+            <Form.Control className='input_text' type="text" placeholder="Digite el código del material" />
           </Col>
         </Form.Group>
       </Col>

@@ -1,0 +1,27 @@
+.titulo_registro_maquinaria{
+    font-family: 'Times New Roman';
+}
+.btn_añadir_cosechadora{
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.btn_añadir_tractor{
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.btn_añadir_cosechadora:hover{
+    background-color: #3A9C01;
+    transition: 0.7s;
+}
+.btn_añadir_tractor:hover{
+    background-color: #FD7F28;
+    transition: 0.7s;
+}

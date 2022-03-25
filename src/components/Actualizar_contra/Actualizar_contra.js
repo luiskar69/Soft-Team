@@ -38,7 +38,7 @@ const Actualizar_contra = () => {
                     <Form>
                       <Form.Group className="mb-3" controlId="formBasicPassword">
                         <Form.Label>Contraseña actual:</Form.Label>
-                        <Form.Control type="password" placeholder="Password" />
+                        <Form.Control type="password" placeholder="Ingrese su contraseña actual" />
                       </Form.Group>
                     </Form>
                   </Col>
@@ -54,7 +54,7 @@ const Actualizar_contra = () => {
                     <Form>
                       <Form.Group className="mb-3" controlId="formBasicPassword">
                         <Form.Label>Nueva contraseña:</Form.Label>
-                        <Form.Control type="password" placeholder="Password" />
+                        <Form.Control type="password" placeholder="Ingrese su nueva contraseña" />
                       </Form.Group>
                     </Form>
                   </Col>
@@ -62,7 +62,7 @@ const Actualizar_contra = () => {
                     <Form>
                       <Form.Group className="mb-3" controlId="formBasicPassword">
                         <Form.Label>Confirmar contraseña:</Form.Label>
-                        <Form.Control type="password" placeholder="Password" />
+                        <Form.Control type="password" placeholder="Confirme su nueva contraseña" />
                       </Form.Group>
                     </Form>
                   </Col>

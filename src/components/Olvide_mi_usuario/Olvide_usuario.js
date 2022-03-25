@@ -1,51 +1,58 @@
-import React from 'react'
-import Form from 'react-bootstrap/Form'
-import './Olvide_usuario.css'
-import Col from 'react-bootstrap/Col'
-import Row from 'react-bootstrap/Row'
-import Container from 'react-bootstrap/Container'
-import Footer from '../Footer/Footer'
+import React from "react";
+import Form from "react-bootstrap/Form";
+import "./Olvide_usuario_style.css";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+import Logo_taller from "../logo-taller.png";
+import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
+import { useHistory } from "react-router";
 
-const Olvide_contraseña = () => {
+const Olvide_usuario = () => {
+  let History = useHistory();
 
-    return (
-        <div>
-        <div className="BoddyRecuperar">
-            
-            <div className="Texto">
-                <br></br>
-                <h4>Recuperar mi usuario</h4>
-            </div>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label className="ingrese_identificacion">Ingrese su documento de identidad</Form.Label>
-            <div className="cajaTexto"><Form.Control type="email" placeholder=""/></div>
-            <Form.Text className="text-muted">
-            </Form.Text>
+  return (
+    <>
+      <Container className="container_olvide_usuario">
+        <Col class="col-md-4 col-md-offset-4">
+          <center>
+            <img src={Logo_taller} />
+            <h3> Recuperar Usuario</h3>
+          </center>
+          <Form>
+            <Form.Group>
+              <Form.Label>
+                Ingresa tu correo electrónico para buscar tu usuario
+              </Form.Label>
+              <Form.Control
+                className="ingresa_correo_recuperar_usuario"
+                type="email"
+                placeholder="Ingresa tu correo"
+              />
             </Form.Group>
+          </Form>
+          <Row>
+            <div className="botones">
+              <Button
+                className="btn_cancelar_recuperar_usuario"
+                variant="outline-secondary"
+                onClick={() => History.push("/Pagina_login")}
+              >
+                Cancelar
+              </Button>
+              <Button
+                className="btn_buscar_recuperar_usuario"
+                variant="outline-secondary"
+                type="submit"
+              >
+                Buscar
+              </Button>
+            </div>
+          </Row>
+        </Col>
+      </Container>
+    </>
+  );
+};
 
-            <Container>
-                <Row>
-                    <br></br>
-                    <Col>
-            <p className="hipervinculOlvido1">
-            <a href="/Recuperacion_usuario">Recuperar usuario</a>
-            </p>
-            </Col>
-            <Col>
-            <p className="hipervinculOlvido2">
-            <a href="/Ingresar">Regresar</a>
-            </p>
-                    </Col>
-                </Row>
-            </Container>
-            <br></br>
-
-        </div>     
-
-        <Footer />
-        
-        </div>
-    )
-}
-
-export default Olvide_contraseña
+export default Olvide_usuario;

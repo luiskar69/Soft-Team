@@ -4,7 +4,7 @@ import Footer from '../Footer/Footer'
 import Navbar from '../Navbar/Navbar'
 import '../Pagina_login/login.css'
 
-const Mecanico_Recepcionista = () => {
+const Captura_info = () => {
       
     return (
 
@@ -17,4 +17,4 @@ const Mecanico_Recepcionista = () => {
     )
 }
 
-export default Mecanico_Recepcionista
+export default Captura_info

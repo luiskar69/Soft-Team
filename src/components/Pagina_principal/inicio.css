@@ -1,9 +1,6 @@
-.Logo {
-  margin-top: 140px;
-  margin-right: 20px;
-  padding: 10px 50px;
+center img{
+  margin-bottom: 20px;
 }
-
 .body {
     background-image: url("./Logo-fondo-SOFT-TEAM.jpg");
     background-position: center center;
@@ -13,7 +10,7 @@
     padding-top: 100px;
   }
 
-.boton {
+.boton_pagina_principal {
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -23,9 +20,9 @@
   border-radius: 15px;
 }
 
-.boton:hover {
+.boton_pagina_principal:hover {
   transition: 0.7s;
-  background-color: rgb(194, 189, 189);
+  background-color: #3A9C01;
 }
  
 .content img {

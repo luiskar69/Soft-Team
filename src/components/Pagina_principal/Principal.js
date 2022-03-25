@@ -10,9 +10,9 @@ const Index = () => {
     <div className="body">
     
       <center>
-      <img className="Logo" class='responsive' src= {Logo}
+      <img className="Logo_pagina" class='responsive' src= {Logo}
       />
-      <button className="boton" onClick={() =>History.push('/Pagina_login')}>INGRESAR</button>
+      <button className="boton_pagina_principal" onClick={() =>History.push('/Pagina_login')}>INGRESAR</button>
       </center>
           
       <footer className="footer">

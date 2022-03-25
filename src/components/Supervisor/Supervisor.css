@@ -55,7 +55,8 @@
 }
 .btn_aprobar:hover{
   transition: 0.7s;
-  background-color: gray;
+  background-color: #3A9C01;
+  color: white;
 }
 
 .btn_rechazar {
@@ -69,7 +70,8 @@
 }
 .btn_rechazar:hover{
   transition: 0.7s;
-  background-color: gray;
+  background-color: #FD7F28;
+  color: white;
 }
 
 .Formulario_ob {

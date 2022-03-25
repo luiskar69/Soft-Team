@@ -17,7 +17,7 @@ const Inventario = () => {
     <>
       <Navbar expand="lg" className="back">
         <Container fluid>
-          <Navbar.Brand href="#">
+          <Navbar.Brand href="/Pagina_principal">
             <Row>
               <Col lg="3" xs="4">
                 <img
@@ -25,7 +25,6 @@ const Inventario = () => {
                   src={Logo}
                   width="80"
                   height="80"
-                  classN
                   ame="d-inline-block align-top"
                 />
               </Col>

@@ -33,7 +33,7 @@ const Ajustes_Body = () => {
         <button className="btnAjustes" onClick={() =>History.push('/Actualizar_contraseña_mec')}>ACTUALIZAR CONTRASEÑA</button>
         </Col>
 
-        <a className="regresarAjustes" href='/Captura_info'>Regresar</a>
+        <a className="regresarAjustes" href='/Mecanico_recepcionista'>Regresar</a>
       </Row>
     </Container>
     )

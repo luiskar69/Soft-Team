@@ -25,10 +25,14 @@
     margin-top: 1%;
     margin-bottom: 10%;
     margin-left: 5%;
-    background-color: white;
     color: black;
     padding: 10px 50px;
     border-radius: 15px;
+}
+.btnAjustes:hover{
+    background-color: #3A9C01;
+    color: white;
+    transition: 0.7s;
 }
 
 .regresarAjustes {

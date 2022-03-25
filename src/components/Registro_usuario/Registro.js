@@ -6,6 +6,7 @@ import Container from "react-bootstrap/Container";
 import Logo_taller from "../logo-taller.png";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import User from "./User.png"
 import { useHistory } from "react-router";
 
 
@@ -32,13 +33,26 @@ const Registro = () => {
                   puedes desactivar cuando quieras.
                 </Col>
               </Row>
-              <div>
+              <img
+                  className="Maquinita"
+                  src={User}
+                  width="150px"
+                  height="150px"
+                />
+              <div className="botones_registro">
                 <Button
                   className="btn_registrar"
                   variant="outline-secondary"
                   onClick={() => History.push("/Pagina_principal")}
                 >
                   Registrar
+                </Button>
+                <Button
+                  className="btn_regresar2"
+                  variant="outline-secondary"
+                  onClick={() => History.push("/Administrador")}
+                >
+                  Regresar
                 </Button>
               </div>
             </center>
@@ -84,20 +98,7 @@ const Registro = () => {
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="formBasicPassword">
-                <Form.Label>Tipo de documento de identidad</Form.Label>
-                <Form.Select
-                  className="prueba"
-                  placeholder="Elija su tipo de documento"
-                >
-                  <option value="1">Cédula de ciudadania</option>
-                  <option value="2">Tarjeta de identidad</option>
-                  <option value="3">Cédula extranjera</option>
-                  <option value="4">Pasaporte</option>
-                </Form.Select>
-              </Form.Group>
-
-              <Form.Group className="mb-3" controlId="formBasicPassword">
-                <Form.Label>Número de documento de identidad</Form.Label>
+                <Form.Label>No. Ficha</Form.Label>
                 <Form.Control
                   className="prueba"
                   type="text"
@@ -132,13 +133,20 @@ const Registro = () => {
                   puedes desactivar cuando quieras.
                 </Col>
               </Row>
-              <div>
+              <div className="botones_registro">
                 <Button
                   className="btn_registrar2"
                   variant="outline-secondary"
                   onClick={() => History.push("/Pagina_principal")}
                 >
                   Registrar
+                </Button>
+                <Button
+                  className="btn_regresar"
+                  variant="outline-secondary"
+                  onClick={() => History.push("/Administrador")}
+                >
+                  Regresar
                 </Button>
               </div>
             </center>

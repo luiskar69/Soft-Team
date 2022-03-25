@@ -6,6 +6,19 @@
     margin-top: 20px;
     margin-left: 3px;
   }
+.btn_registrar_maquina{
+  background-color: white;
+  color: black;
+  padding: 10px 30px;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-left: 3px;
+}
+.btn_registrar_maquina:hover{
+  transition: 0.7s;
+  background-color: rgb(233, 233, 7);
+  color: black;
+}
   .btn_editar_usuario{
     background-color: white;
     color: black;
@@ -17,10 +30,12 @@
   .btn_añadir_usuario:hover{
       transition: 0.7s;
       background-color: #3A9C01;
+      color: white;
   }
   .btn_editar_usuario:hover{
     transition: 0.7s;
     background-color: #FD7F28;
+    color: white;
   }
   .search{
       margin-top: 30px;
